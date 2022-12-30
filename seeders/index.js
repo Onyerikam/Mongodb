@@ -60,7 +60,7 @@ async function seedRole () {
       if (result) console.log('Role seeded 🍺');
       else console.log('Role seeder failed!');
     } else {
-      console.log('Role is upto date 🍺');
+      console.log('Role is up to date 🍺');
     }
   } catch (error) {
     console.log('Role seeder failed due to ', error.message);
